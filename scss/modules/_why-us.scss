@@ -1,0 +1,52 @@
+.why-us {
+    background: url(../images/choose.jpg) no-repeat top center;
+    background-size: cover;
+    height: 685px;
+    width: 100%;
+    @include f-center;
+
+    .why {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        &__title {
+            font-size: 36px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 0.72;
+            letter-spacing: normal;
+            text-align: left;
+            color: #ffffff;
+        }
+
+        &__text {
+            font-family: 'Josefin Sans';
+            font-size: 16px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.63;
+            letter-spacing: 1.6px;
+            text-align: left;
+            color: #e8e8e8;
+        }
+    }
+    
+    .images {
+        display: flex;
+        flex-direction: column;
+
+        &__01 {
+            display: flex;
+            align-self: flex-start;
+            margin-bottom: 5px;
+        }
+
+        &__02 {
+            display: flex;
+            align-self: flex-end;
+        }
+    }
+}

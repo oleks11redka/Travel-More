@@ -1,0 +1,11 @@
+.why__button {
+    font-family: 'Aleo';
+    text-transform: uppercase;
+    width: 225px;
+    height: 60px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: .3s;
+    background-color: #496bfe;
+    @include f-center;
+}
